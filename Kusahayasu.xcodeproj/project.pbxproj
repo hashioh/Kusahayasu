@@ -13,6 +13,8 @@
 		6484D1DE1B12197F006CCA88 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6484D1DD1B12197F006CCA88 /* Images.xcassets */; };
 		6484D1E11B12197F006CCA88 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6484D1DF1B12197F006CCA88 /* LaunchScreen.xib */; };
 		6484D1ED1B12197F006CCA88 /* KusahayasuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6484D1EC1B12197F006CCA88 /* KusahayasuTests.swift */; };
+		6484D1F71B1219F8006CCA88 /* mypage.png in Resources */ = {isa = PBXBuildFile; fileRef = 6484D1F61B1219F8006CCA88 /* mypage.png */; };
+		64E98B6B1B121EE9000FF3DB /* kusa.png in Resources */ = {isa = PBXBuildFile; fileRef = 64E98B6A1B121EE9000FF3DB /* kusa.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		6484D1E61B12197F006CCA88 /* KusahayasuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KusahayasuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6484D1EB1B12197F006CCA88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6484D1EC1B12197F006CCA88 /* KusahayasuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KusahayasuTests.swift; sourceTree = "<group>"; };
+		6484D1F61B1219F8006CCA88 /* mypage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mypage.png; sourceTree = "<group>"; };
+		64E98B6A1B121EE9000FF3DB /* kusa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kusa.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 		6484D1C81B12197F006CCA88 = {
 			isa = PBXGroup;
 			children = (
+				64E98B6A1B121EE9000FF3DB /* kusa.png */,
+				6484D1F61B1219F8006CCA88 /* mypage.png */,
 				6484D1D31B12197F006CCA88 /* Kusahayasu */,
 				6484D1E91B12197F006CCA88 /* KusahayasuTests */,
 				6484D1D21B12197F006CCA88 /* Products */,
@@ -192,6 +198,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6484D1F71B1219F8006CCA88 /* mypage.png in Resources */,
+				64E98B6B1B121EE9000FF3DB /* kusa.png in Resources */,
 				6484D1DC1B12197F006CCA88 /* Main.storyboard in Resources */,
 				6484D1E11B12197F006CCA88 /* LaunchScreen.xib in Resources */,
 				6484D1DE1B12197F006CCA88 /* Images.xcassets in Resources */,
@@ -405,6 +413,7 @@
 				6484D1F21B12197F006CCA88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6484D1F31B12197F006CCA88 /* Build configuration list for PBXNativeTarget "KusahayasuTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +422,7 @@
 				6484D1F51B12197F006CCA88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
